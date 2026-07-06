@@ -32,7 +32,7 @@ namespace Onion.Infrastructure.Layer.DataContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=.; Initial Catalog = YY2_UrunDBSepetHocayla; Integrated security= true; trust server certificate = true");
+            optionsBuilder.UseSqlServer("Data Source=.; Initial Catalog = YY2_UrunDBSepet; Integrated security= true; trust server certificate = true");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
